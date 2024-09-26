@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic DOM Manipulation</title>
+    <style>
+        #dynamicText {
+            color: blue;
+            position: relative;
+            top: 20px;
+        }
+        .changeColor {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="header">Sai Khairnar Lab_3</h1>
+    <p id="dynamicText">This will change</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Color</button>
+    <button onclick="changeImage()">Change Image</button>
+    <button onclick="addTextNode()">Add Text Node</button>
+    <button onclick="deleteNode()">Delete Last Element</button>
+
+    <img id="image" src="mit2.jpeg">
+    
+    <div id="parentNode">
+        <p class="child">This is a child node.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
